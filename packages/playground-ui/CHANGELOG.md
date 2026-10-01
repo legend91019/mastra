@@ -1,5 +1,17 @@
 # @mastra/playground-ui
 
+## 60.1.1-alpha.0
+
+### Patch Changes
+
+- Added a `repeat` option to `useKeydown`. Set it to `false` so holding a key runs the handler once instead of on every key repeat, which suits toggles: ([#25438](https://github.com/mastra-ai/mastra/pull/25438))
+
+  ```tsx
+  useKeydown({ '[': toggleSidebar }, { repeat: false });
+  ```
+
+- Fixed the thread view firing repeated scores requests for every trace. Scores now load only when a trace's Scores tab is open, and the tab no longer shows a count. ([#25683](https://github.com/mastra-ai/mastra/pull/25683))
+
 ## 60.1.0
 
 ### Minor Changes

@@ -1,5 +1,12 @@
 # @internal/playground
 
+## 1.32.1-alpha.0
+
+### Patch Changes
+
+- Updated dependencies [[`ab0e109`](https://github.com/mastra-ai/mastra/commit/ab0e109c3625d0e056eb77938da2a81232046575), [`e24325b`](https://github.com/mastra-ai/mastra/commit/e24325b4ffb62a45dfb8160c5acd4e0f71ef3d33)]:
+  - @mastra/playground-ui@60.1.1-alpha.0
+
 ## 1.32.0
 
 ### Patch Changes
